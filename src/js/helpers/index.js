@@ -21,6 +21,7 @@ export const formatIssueQuery = ({
     + '?q=is:issue is:open'
     + formatIssueQueryParams('language', languages)
     + formatIssueQueryParams('label', labels)
+    + "org:google"
     + '&page=' + page
     + '&per_page=' + per_page
     + '&sort=' + sort
